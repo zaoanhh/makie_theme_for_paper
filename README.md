@@ -1,6 +1,6 @@
 # makie_theme_for_paper         
 
-这是一个目前在用的[Makie](https://docs.makie.org/)绘图主题。颜色和marksize在循环，可以支持latex字符渲染。默认字号是8号、纵横比是2:1。在使用时，仅需要将`makie_theme.jl`的两个函数粘贴到文档中并执行`set_theme!(merge(new_cycle_theme(),theme_latexfonts()))`就可以了。
+这是一个目前在用的[Makie](https://docs.makie.org/)绘图主题。颜色和mark在循环，可以支持latex字符渲染。默认字号是8号、纵横比是2:1。在使用时，仅需要将`makie_theme.jl`的两个函数粘贴到文档中并执行`set_theme!(merge(new_cycle_theme(),theme_latexfonts()))`就可以了。
 
 
 
