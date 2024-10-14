@@ -11,4 +11,6 @@
 
 - 直接绘制tikz图片或者用类似的包将绘图转为tikz，如matlab的[matlab2tikz](https://github.com/matlab2tikz/matlab2tikz)、python的tikzplotlib、  Julia的[PGFPlots](https://github.com/JuliaTeX/PGFPlots.jl)。
 
-- 设置图片的Figure的size,然后等比设置字体。例如《中国科学信息科学》的投稿模板将\textwidth设置为16cm，如果想画一个宽度为半页、字体为8pt的图、纵横比为2：1的图，可以设置Figsize为（2,1）* 16cm * 0.5 * 28.3465 pt，然后将字号设置为8pt即可（如果是julia的[Makie](https://docs.makie.org/)）。这里的换算是1cm=28.3465 pt，1 in = 72pt。    
+- 设置图片的Figure的size,然后等比设置字体。例如《中国科学信息科学》的投稿模板将\textwidth设置为16cm，如果想画一个宽度为半页、字体为8pt的图、纵横比为2：1的图，可以设置Figsize为（2,1）* 16cm * 0.5 * 28.3465 pt，然后将字号设置为8pt即可（如果是julia的[Makie](https://docs.makie.org/)需要额外设置`pt_per_unit = 1`）。这里的换算是1cm=28.3465 pt，1 in = 72pt。    
+
+
