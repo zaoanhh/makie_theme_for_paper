@@ -1,7 +1,6 @@
 using CairoMakie
-my_colors = ["#1C3C63", "#DE061E", "#8A8A88", "#2C6344",
+my_colors = ["#1C3C63", "#A13E38", "#8A8A88","#176A7A",
          "#357EBDFF", "#9632B8FF", "#B8B8B8FF", "#002FA7FF"]
-
 function myfig(;length_div_width=4/2,linewidth=28,fig_width_div_linewidth=0.5,scale=2.0)
     cm_to_pt = 28.3464566929134
     fig_length = floor(Int,linewidth * fig_width_div_linewidth * cm_to_pt * scale)
